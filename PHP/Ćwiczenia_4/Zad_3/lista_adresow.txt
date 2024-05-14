@@ -1,0 +1,4 @@
+https://www.php.net/;Strona główna PHP manual
+https://www.php.net/manual/en/function.fopen;Otwiera plik lub adres URL
+https://www.php.net/manual/en/function.fclose;Zamyka wskaźnik otwartego pliku
+https://www.php.net/manual/en/function.fread;Odczyt pliku bezpiecznego binarnie
