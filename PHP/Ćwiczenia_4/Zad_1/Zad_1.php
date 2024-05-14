@@ -17,7 +17,7 @@ if (!$fd = fopen('plik.txt', 'r')) {
     echo "Nie mogę utworzyć plik_odwrocony.txt";
   } else {
     foreach ($reversedLines as $line) {
-      fwrite($fd, $line . "\n"); // Zapisz odwrócony wiersz do pliku
+      fwrite($fd, $line . "\n");
     }
     fclose($fd);
     echo "Plik został odwrócony. Możesz pobrać odwróconą wersję <a href='plik_odwrocony.txt'>tutaj</a>.";
