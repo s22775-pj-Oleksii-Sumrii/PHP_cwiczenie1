@@ -2,7 +2,7 @@
 require_once 'Product.php';
 
 class Cart {
-  private $products;
+  private array $products;
 
   public function __construct() {
     $this->products = [];
